@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets (GTSRB archive exceeds GitHub 100MB limit)
+Dataset/*.zip
+Dataset/*.csv
+Dataset/Train/
+Dataset/Test/
+Dataset/Meta/
+*.zip
+*.tar.gz
+
+# Environments & Virtual Envs
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary / OS files
+scratch/
+Thumbs.db
+Desktop.ini
+.DS_Store
